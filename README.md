@@ -15,13 +15,13 @@
   npm install tailwindcss @tailwindcss/vite
 
 - Ardından src klasörümüzü my-todo-app klasörünün içine kopyalayalım.
-Sorulduğunda " Hedefteki Dosyayı Değiştir" seçeneğine tıklayalım.
+  Sorulduğunda " Hedefteki Dosyayı Değiştir" seçeneğine tıklayalım.
 
 - Son olarak
 
   npm run dev
 
-Artık tarayıcımızdan "http://localhost:5173/" adresine bağlanarak sayfamızı görebiliriz.
+  Artık tarayıcımızdan "http://localhost:5173/" adresine bağlanarak sayfamızı görebiliriz.
 
 
 ===============================================================================
@@ -30,7 +30,7 @@ Artık tarayıcımızdan "http://localhost:5173/" adresine bağlanarak sayfamız
 
 - In the command line enter:
 
-npm create vite@latest my-todo-app
+  npm create vite@latest my-todo-app
 
 - When prompted " Select a framework:"
   choose "> React" by using the arrow keys.
@@ -47,4 +47,4 @@ npm create vite@latest my-todo-app
 
   npm run dev
 
-Now we may reach our webpage at "http://localhost:5173/" in our browser.
+  Now we may reach our webpage at "http://localhost:5173/" in our browser.
