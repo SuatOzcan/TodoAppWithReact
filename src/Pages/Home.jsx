@@ -22,14 +22,26 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-xl mx-auto mt-10 p-4">
-      <h1 className="text-2xl font-bold mb-4">TODO App</h1>
-      <TodoForm addTodo={addTodo} />
-      <TodoList
-        todos={todos}
-        deleteTodo={deleteTodo}
-        updateTodo={updateTodo}
-      />
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-md">
+        <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">
+          📝 TODO App
+        </h1>
+
+        <TodoForm addTodo={addTodo} />
+
+        <TodoList
+          todos={todos}
+          deleteTodo={deleteTodo}
+          updateTodo={updateTodo}
+        />
+
+        {todos.length === 0 && (
+          <p className="text-center text-gray-400 mt-4">
+            Henüz görev yok. 👀
+          </p>
+        )}
+      </div>
     </div>
   );
 }

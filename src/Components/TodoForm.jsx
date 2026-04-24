@@ -15,10 +15,10 @@ export default function TodoForm({ addTodo }) {
       <input
         value={text}
         onChange={(e) => setText(e.target.value)}
-        className="border p-2 flex-1 rounded"
-        placeholder="Görev ekle..."
+        className="flex-1 border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        placeholder="Görev ekle!"
       />
-      <button className="bg-blue-500 text-white px-4 py-2 rounded">
+      <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition">
         Ekle
       </button>
     </form>
